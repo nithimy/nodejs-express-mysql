@@ -1,11 +1,11 @@
 const mysql = require("mysql");
-const DBConnection = require("../configs/DBConnection.js");
+const DBconnection = require("../configs/DBconnection.js");
 
 var connection = mysql.createPool({
-  host: DBConnection.HOST,
-  user: DBConnection.USER,
-  password: DBConnection.PASSWORD,
-  database: DBConnection.DB
+  host: DBconnection.HOST,
+  user: DBconnection.USER,
+  password: DBconnection.PASSWORD,
+  database: DBconnection.DB
 });
 
 module.exports = connection;
