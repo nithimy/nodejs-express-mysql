@@ -1,6 +1,6 @@
 module.exports = {
-  HOST: "us-cdbr-iron-east-02.cleardb.net",
-  USER: "b7e24378878xxx",
-  PASSWORD: "0200exxx",
-  DB: "heroku_7643ec736354xxx"
+  HOST: "us-cdbr-east-04.cleardb.com",
+  USER: "bf6057fc989c0e",
+  PASSWORD: "2dde422e",
+  DB: "heroku_644fbe10f3a8931"
 };
