@@ -1,6 +1,5 @@
 const mysql = require("mysql");
 const DBConnection = require("../configs/DBConnection.js");
-const DBConnection = require("../configs/DBConnection.js");
 
 var connection = mysql.createPool({
   host: DBConnection.HOST,
